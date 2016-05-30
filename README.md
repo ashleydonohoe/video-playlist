@@ -7,3 +7,5 @@ This is a work in progress and primarily for experimentation with HTML5 media pl
 - Scrolling playlist
 - Additional videos
 - Video information shown during playback
+- Search option
+- Additional optimization for mobile
