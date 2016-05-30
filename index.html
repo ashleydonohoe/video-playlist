@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Beach Video Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+  	<div class="container">
+  			<header class="row">
+  				<h1 class="col-md-12">Beach Video Player</h1>
+  			</header>
+        <section class="video-player row">
+          <video controls autoplay>
+            <source id="videoSource" src="videos/beach.mp4" type="video/mp4">
+          </video>
+        </section>
+        <section id="playlist" class="row">
+          <ul id="tracks" class="col-md-12">
+            <li><a href="videos/beach.mp4">Video 1</a></li>
+            <li><a href="videos/beach2.mp4">Video 2</a></li>
+            <li><a href="videos/beach3.mp4">Video 3</a></li>
+            <li><a href="videos/beach4.mp4">Video 4</a></li>
+            <li><a href="videos/beach5.mp4">Video 5</a></li>
+          </ul>
+        </section>
+  	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="script.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
